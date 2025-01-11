@@ -1,20 +1,21 @@
-# Processamento de Dados de Tabelas Copiadas do Excel para PHP
+# 📝 Processamento de Dados de Tabelas Copiadas do Excel para PHP 💻
 
-Este projeto permite processar dados copiados de uma tabela do Excel e colados em uma `textarea` HTML. Os dados são enviados via `POST` e processados no backend PHP, convertendo cada linha em um array associativo. O script também lida com nomes duplicados e múltiplas colunas.
+Este projeto permite processar dados copiados de uma tabela do Excel e colados em uma `textarea` HTML. Os dados são enviados via `POST` e processados no backend PHP, convertendo cada linha em um array associativo. O script também lida com nomes duplicados e múltiplas colunas. 🔄
 
-## Funcionalidades
+## Funcionalidades 🚀
 
-- Processamento de múltiplas colunas separadas por tabulação.
-- Detecção e remoção de repetição do último sobrenome no campo "nome", ignorando diferenças de maiúsculas e minúsculas.
-- Suporte para preenchimento automático de colunas ausentes.
+- Processamento de múltiplas colunas separadas por tabulação. 📊
+- Detecção e remoção de repetição do último sobrenome no campo "nome", ignorando diferenças de maiúsculas e minúsculas. 🧹
+- Suporte para preenchimento automático de colunas ausentes. ⚙️
 
-## Pré-requisitos
+## Pré-requisitos ✅
 
 - PHP >= 7.4
-- Navegador para executar o frontend
-- Servidor local (como XAMPP ou WAMP) para processar o PHP
+- Navegador para executar o frontend 🌐
+- Servidor local (como XAMPP ou WAMP) para processar o PHP 🖥️
 
-## Como Usar
+
+## Como Usar 🚀
 
 1. **Adicione o Formulário HTML**  
    Crie um arquivo `index.html` contendo o seguinte código. Este formulário permite ao usuário colar os dados copiados do Excel:
